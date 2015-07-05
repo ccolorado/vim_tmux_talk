@@ -14,9 +14,9 @@
 - auto completion
 - spell checking
 - auto correct with iabbrev ( on code ? )
-- vim mailist
+- vim mail list
 - gf ( goto file )
 
 # General
-- Emacs vim is irrelevant, I happend to know vim.
+- Emacs vim is irrelevant, I happened to know vim.
 - Vim is optimized for repetition.
