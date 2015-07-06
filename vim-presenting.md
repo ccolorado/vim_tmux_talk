@@ -52,3 +52,16 @@ No place like 255.255.255.255
 
 #References
 http://blog.codinghorror.com/we-are-typists-first-programmers-second/
+
+# Remote pairing
+  * not using a screen sharing, slow
+  * only ssh
+  * responsiveness is on point
+- How to pair
+  - Creating the session
+    1. tmux -S /tmp/pair new -d -s pair
+    2. chmod 777 /tmp/pair
+    3. tmux -S /tmp/pair attach
+  - Sharing the session
+    1. ssh into the machine
+    2. tmux -S /tmp/pair attach
