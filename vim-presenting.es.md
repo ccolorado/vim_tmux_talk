@@ -1,4 +1,4 @@
-# Fri Jul  10 2015
+# Tabajando Efectivamente con vim + tmux
 
                  Trabajando Efectivamente
                       con vim + tmux
@@ -16,25 +16,75 @@
   Blog          : https://ccolorado.github.io/
   Presentation  : https://goo.gl/V2vOEj
 
+
 # Audiencia de esta platica
+
+
+
+
 
 
 * Integrantes de equipos distribuidos
 * Proyectos con arquitectura distribuida
 * vim-curious o principiantes
-* Usuarios de vim intermedios estancados
+* Usuarios de Vim intermedios estancados
 * Ambientes con limitaciones de recursos
 
 
+
+
+
+
+
+
 # Slide
+
+
+
+
+
+
+
+
 
 No hay lugar como 127.0.0.1
 
+
+
+
+
+
+
+
+
 # Slide
+
+
+
+
+
 
 No hay lugar como 255.255.255.255
 
+
+
+
+
+
+
+
+
+
+
+
 # Que es un multiplexor de sesiones ?
+
+
+
+
+
+
+
 
 # Porque aprender a usar tmux
 
@@ -75,121 +125,103 @@ $ tmux attach [-t #]
 
 # Uso basico de tmux (2/3)
 
-<c-b c> Crear una nueva ventana (tabs)
-<c-b “>  Dividir la pantalla horizontal mente
-<c-b %> Dividir la pantalla vertical ment
-<c-b n> Ir a la ventana siguiente
-<c-b p> Ir a la ventana previa
-<c-b d> Abandonar la sesion actual
+<c-b c>         Crear una nueva ventana (tabs)
+<c-b “>         Dividir la pantalla horizontal mente
+<c-b %>         Dividir la pantalla vertical ment
+<c-b n>         Ir a la ventana siguiente
+<c-b p>         Ir a la ventana previa
+<c-b d>         Abandonar la sesion actual
 <c-b (flechas)> Enfocar divisiones
 
 # Uso basico de tmux (3/3)
 
-<c-b z> “Maximizar” un split
-<c-b $> Renombrar la ventana actual
-<c-b D> Truncar conexiones al servidor de tmux 
-<c-b [> Cambiar a modo de copia/scroll
-q Salir del modo copia
-/palabra Buscar “palabra”
+<c-b z>   “Maximizar” un split
+<c-b $>   Renombrar la ventana actual
+<c-b D>   Truncar conexiones al servidor de tmux 
+<c-b [>   Cambiar a modo de copia/scroll
+q         Salir del modo copia
+/palabra  Buscar “palabra”
 
 
 # Porque tmux > screen
 
-* Splits verticales nativas.
-* Maximizar splits
-* Syntaxis mas clara
+* División verticales nativas.
+* Maximizar división 
+* Sintaxis mas clara
 * Mayor mantenimiento del su código.
 * Programable!
 
-# Vim & Emacs
+# Vim
 
-## Neovim
+* Alguen utliza vim ?
+* https://twitter.com/iamdevloper/status/435555976687923200
 
-# Haciendo de cualquier lado tu casa
+# Diseño y filosofía de vim
+
+- Modal
+- Repetible
+- Programable
+
+# Cuando y porque empecé a usar vim
+
+"We are typists first, and programmers second."
+      --Jeff Artwood
+http://blog.codinghorror.com/we-are-typists-first-programmers-second/
+
+__Multi cursores en Sublime__
+
+
+# Filosofía de Vim & Emacs
+
+-  https://xkcd.com/378/
+- ./examples/vim_emacs_shots_fire.md
+
+# Como empezar a usar vim
+
+* Una persona que ya lo use
+
+- vimtutor:        Movimientos y comandos basicos
+- vimhelp:         Referencia completa
+- vim adventures:  http://vim-adventures.com/5
+
+# Funcionalidad de vim
+
+- Rastreo de símbolos
+- Plegado de Código
+- Auto completado
+- Revisiones ortográficas
+- Auto corrector
+- Sumamente eficiente en saltos
+
+# La importancia del homerow
+
+- Ctrl+v
+- Ctrl+c
+- Ctrl+x
+- Ctrl+s
+
+# Aprender vim es un proceso incremental
+
+- Detectar ineficiencias
+- Resolver las ineficiencias
+- Hacerse el habito de usar la solución
+
+# La técnica del acordeón "cheatsheet"
+
+- Entre 7 y 10 soluciones.
+- No pretender recordar todo
+- Curar y agregar soluciones a la lista
+
+# 255.255.255.255 es tu casa
+
+- Repositorio de configuraciones
+- Secript de enlazado
 
 # Preguntas
 
 *twitter:* : @CColorado
 *google+:* : carlos.colorado@gmail.com
 *Platica:* : https://goo.gl/V3vOEj
-
-
-# Why and how to learn vim your own
-## Vim tutor
-- half an hour excersice that will give you basics
-# Read the manial
-
-
-"We are typists first, and programmers second."
-      --Jeff Artwood
-imagine how would you feel if you disabled for a week ctrl+s, ctrl+x, ctrl+v
-
-#How to learn
-
-Vim tutor
-* basic movement
-* basic editing, delete 
-
-Vim adventure
-
-
-
-
-
-
-#Notes
-##Neovim
-symptoms
-
-#emacs
-
-
-# Why and how to learn vim your own
-## Vim tutor
-- half an hour excersice that will give you basics
-# Read the manial
-
-
-"We are typists first, and programmers second."
-      --Jeff Artwood
-imagine how would you feel if you disabled for a week ctrl+s, ctrl+x, ctrl+v
-
-#How to learn
-
-Vim tutor
-* basic movement
-* basic editing, delete 
-
-Vim adventure
-* http://vim-adventures.com/
-
-* :h 
-- The cheat sheet
-
-#Write code faster
-
-Intimidating learning curve.
-Programing language from editing text
-
-
-Motions
-*
-
-importance of the homerow
-
-
-"I've been using vim for a few years now. Namely because I still haven't found out how to
-quit it."
-
-
-
-No place like 127.0.0.1
-
-No place like 255.255.255.255
-
-
-#References
-http://blog.codinghorror.com/we-are-typists-first-programmers-second/
 
 # Remote pairing
   * not using a screen sharing, slow
