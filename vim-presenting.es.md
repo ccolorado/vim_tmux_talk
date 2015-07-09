@@ -217,21 +217,30 @@ __Multi cursores en Sublime__
 - Repositorio de configuraciones
 - Secript de enlazado
 
+# Programacion en parejas ( Pair Programming )
+
+* Desventajas de las herramientas convencionales
+
+
+# Ventajas fe programación en paregas con vim
+
+* Solo usas trafico de ssh
+* Las interacciones son responsivas
+
+
+# Como aprovechar vim y tmux para trabajar en parejas
+- Creando una sesion
+1. tmux -S /tmp/pair new -d -s pair
+2. chmod 777 /tmp/pair
+3. tmux -S /tmp/pair attach
+
+- Sharing the session
+1. ssh into the machine
+2. tmux -S /tmp/pair attach
+
 # Preguntas
 
 *twitter:* : @CColorado
 *google+:* : carlos.colorado@gmail.com
 *Platica:* : https://goo.gl/V3vOEj
 
-# Remote pairing
-  * not using a screen sharing, slow
-  * only ssh
-  * responsiveness is on point
-- How to pair
-  - Creating the session
-    1. tmux -S /tmp/pair new -d -s pair
-    2. chmod 777 /tmp/pair
-    3. tmux -S /tmp/pair attach
-  - Sharing the session
-    1. ssh into the machine
-    2. tmux -S /tmp/pair attach
