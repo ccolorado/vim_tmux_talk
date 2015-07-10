@@ -537,7 +537,7 @@ http://blog.codinghorror.com/we-are-typists-first-programmers-second/
 
 
 
-# Preguntes
+# Preguntas
 
 
 
@@ -547,6 +547,7 @@ http://blog.codinghorror.com/we-are-typists-first-programmers-second/
 *twitter:* : @CColorado
 *google+:* : carlos.colorado@gmail.com
 *Platica:* : https://goo.gl/V3vOEj
+Referencias: https://www.youtube.com/playlist?list=PLyYwnsMJB3UOpPqdkSXINn2vBl0BzUgkA
 
 
 
